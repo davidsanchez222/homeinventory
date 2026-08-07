@@ -15,17 +15,57 @@ i initially planned on just vibe-coding a basic front end for this app and deplo
 **deployment?**
 i could still deploy my homebox setup into a serverless platform, however, i already have a Tailscale tailnet setup with some running servers. also, it seems like self-hosting is what the cool kids are doing so why not use what i already have and give it a shot
 
+## new and improved workflow
+with HomeBox, we can add locations (boxes) and assign them items. ex:
+<div align="center">
+  <img width="596" height="117" alt="image" src="https://github.com/user-attachments/assets/d51e4127-3042-48c6-87d8-6680048d4c8c" />
+  <img width="598" height="431" alt="image" src="https://github.com/user-attachments/assets/92cab304-39d1-43a0-bf3b-130a7f09058c" />
+</div>
+
+
+
 ## getting started with HomeBox
-per the docs, the preferred installation is installing a docker container. i took me until now to realize that i have to have docker desktop running in macOS for containers to run or else i would get a  `docker daemon error`. first roadblock. i try to avoid GUIs where i can. it's counterintuitive to have a desktop application open in the background to use docker in my terminal.
+per the docs, the preferred installation is installing a docker container. i took me until now to realize that i need to have docker desktop running in macOS for containers to run or else i would get a  `docker daemon error`. first roadblock. i try to avoid GUIs where i can. it's counterintuitive to have a desktop application open in the background to use docker in my terminal.
 
 thankfully, [Colima](https://github.com/abiosoft/colima), takes care of this. setup is super simple
 ```
 brew install colima docker docker-compose
 docker context use colima
 ```
-and now we can run the docker container without docker-desktop. goodbye menu-bar icon.
+and now we can run the docker container without docker-desktop. goodbye menu-bar icon. after editing the basic `compose.yaml` file and running `docker compose up -d`. we are up and running with HomeBox.
 
-<img width="328" height="387" alt="Screenshot 2026-08-07 at 3 11 28 PM" src="https://github.com/user-attachments/assets/2072afad-0d51-47fc-9727-ff9d22a50c51" />
+<table>
+  <tr>
+    <td rowspan="2">
+      <img
+        src="https://github.com/user-attachments/assets/2072afad-0d51-47fc-9727-ff9d22a50c51"
+        alt="bye-bye menubar"
+        width="328"
+      />
+    </td>
+    <td>
+      <img
+        src="https://github.com/user-attachments/assets/189b4a69-15fa-469b-95e1-54c2aa7320f1"
+        alt="image"
+        width="622"
+      />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img
+        src="https://github.com/user-attachments/assets/f424a181-6389-48db-b499-1540e7ccc019"
+        alt="image"
+        width="400"
+      />
+    </td>
+  </tr>
+</table>
+
+## wait, where should the container live?
+now that HomeBox is running, how are we using it? i won't 
+
+
 
 
 
