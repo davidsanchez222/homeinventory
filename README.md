@@ -10,7 +10,7 @@ moving from apartment to apartment in college. i would simply put my stuff in a 
 
 **the next path forward is to track everything digitally**
 ## enter homebox
-i initially planned on just vibe-coding a basic front end for this app and deploying on a serverless platform like Vercel or Netlify and calling it a day. that was until i stumbled upon a HomeBox, a FOSS application for this exact purpose written in Go. i love creating my own solutions for things but only out of necessity. so if something already exists and it works good, i'm using that. i'm not going to reinvent the wheel.
+i initially planned on just vibe-coding a basic front end for this app and deploying on a serverless platform like Vercel or Netlify and calling it a day. that was until i stumbled upon a [HomeBox](https://github.com/sysadminsmedia/homebox), a FOSS application for this exact purpose written in Go. i love creating my own solutions for things but only out of necessity. so if something already exists and it works good, i'm using that. i'm not going to reinvent the wheel.
 
 **deployment?**
 i could still deploy my homebox setup into a serverless platform, however, i already have a Tailscale tailnet setup with some running servers. also, it seems like self-hosting is what the cool kids are doing so why not use what i already have and give it a shot
@@ -67,8 +67,13 @@ and now we can run the docker container without docker-desktop. goodbye menu-bar
   </tr>
 </table>
 
-## wait, where should the container live?
-now that HomeBox is running, how are we using it? this can't live on my macbook
+## so how do we print the labels? 
+### deploying on home server
+now that HomeBox is running, how are we using it? this can't live on my macbook, so i need to deploy on a homelab i have tagged in tailscale as _optiserver_. this is just a [Dell OptiPlex](https://www.dell.com/en-us/shop/desktop-computers/scr/desktops/appref=optiplex-product-line) i got on sale off Amazon
+
+<div align="center">
+<img width="1121" height="490" alt="image" src="https://github.com/user-attachments/assets/f2c7952f-228e-49d0-97e5-c2c7b9b7b4c0" />
+</div>
 
 
 
