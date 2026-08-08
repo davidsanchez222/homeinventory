@@ -1,4 +1,10 @@
 # using HomeBox for home inventory
+<div align="center">
+  <img width="275" height="194" alt="messyStorage_compressed" src="https://github.com/user-attachments/assets/5986d024-0dd6-4aec-8419-5c067e503f7c" />
+<img width="236" height="212" alt="image" src="https://github.com/user-attachments/assets/585d6f17-1598-4252-bbf5-01a4a113679b" />
+</div>
+
+
 ## motivation
 i just graduated college and am now crashing on my parents' couch in small 1bed/1bath condo. there isn't nearly enough space for all my things because i consumermaxxed all throughout college and have amassed more belongings than my whole family combined. i need to put all my stuff in storage totes in a leased storage space.
 
