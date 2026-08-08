@@ -2,7 +2,7 @@
 ## motivation
 i just graduated college and am now crashing on my parents' couch in small 1bed/1bath condo. there isn't nearly enough space for all my things because i consumermaxxed all throughout college and have amassed more belongings than my whole family combined. i need to put all my stuff in storage totes in a leased storage space.
 
-### previous workflows
+### previous workflow
 moving from apartment to apartment in college. i would simply put my stuff in a cardboard boxes, write down the category of the box (ex: kitchen), and jot down the individual elements. however, this isn't optimal because i 
   1. don't want to have carry around a notebook to add/look up items
   2. don't want to write down items with pen/paper (i can type pretty fast 😎)
@@ -15,13 +15,18 @@ i initially planned on just vibe-coding a basic front end for this app and deplo
 **deployment?**
 i could still deploy my homebox setup into a serverless platform, however, i already have a Tailscale tailnet setup with some running servers. also, it seems like self-hosting is what the cool kids are doing so why not use what i already have and give it a shot
 
-## new and improved workflow
-with HomeBox, we can add locations (boxes) and assign them items. ex:
+## better workflow
+### with HomeBox, we can add locations (boxes) and assign them items. ex:
 <div align="center">
   <img width="596" height="117" alt="image" src="https://github.com/user-attachments/assets/d51e4127-3042-48c6-87d8-6680048d4c8c" />
   <img width="598" height="431" alt="image" src="https://github.com/user-attachments/assets/92cab304-39d1-43a0-bf3b-130a7f09058c" />
 </div>
 
+### the other cool thing that HomeBox provides out of the box is QR code generation for each location
+<div align="center">
+<img width="835" height="420" alt="image" src="https://github.com/user-attachments/assets/4eb6085d-57ec-4823-9620-76fd1e82d09b" />
+</div>
+so if i am ever physically near a box and want to see what's inside (storage totes are not transparent), i can scan the qr and it will take me to this page. more later on how to to actually print this.
 
 
 ## getting started with HomeBox
@@ -63,7 +68,7 @@ and now we can run the docker container without docker-desktop. goodbye menu-bar
 </table>
 
 ## wait, where should the container live?
-now that HomeBox is running, how are we using it? i won't 
+now that HomeBox is running, how are we using it? this can't live on my macbook
 
 
 
